@@ -1,0 +1,79 @@
+<!-- reference : https://www.w3schools.com/howto/howto_make_a_website.asp -->
+
+<!DOCTYPE html> <!-- defines document to be html5 -->
+<html lang="en"> <!--root-->
+
+<!-- contains meta information-->
+<head>
+    <title> Page title</title> <!--title for the document -->
+
+    <!-- meta element is used to specify metadata (used by web browsers, search engines and other web services to display content or for search keywords)-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--contains styles of the website -->
+    <style>
+
+        body {font-family: Trebuchet MS, Helvetica, sans-serif;}
+
+        .header{
+            padding: 50px; /* some padding */
+            text-align: center; /* center the text */
+            background: #1abc9c; /* cyan background */
+            color: white; /* white text color */
+        }
+
+        .header h1{
+            font-size: 40px; /*increase font size of h1 element */
+        }
+
+        /*style the top navigation bar*/
+        .navbar{
+            overflow: hidden; /*used to control content that is too big to fit into area - hidden --> content clipped*/
+            background-color: #333;
+        }
+
+        /*style the navigation bar links*/
+        .navbar a{
+            float: left;/*specifies how the elements should float in the container ; absolutely placed elements ignores this  */
+            display: block; /*specifies the display behvior ; block - starts on new line and takes u pentire width */
+            color: white; /* White text color */
+            text-align: center; /* Center the text */
+            padding: 14px 20px; /* Add some padding  - height width*/
+            text-decoration: none; /* Remove underline */
+
+        }
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right; /* Float a link to the right */
+        }
+
+        /* Change color on hover/mouse-over  ;  :hover selector is used to select elements when moused over */
+        .navbar a:hover {
+            background-color: #ddd; /* Grey background color */
+            color: black; /* Black text color */
+        }
+
+    </style>
+
+</head>
+
+<!-- contains visible page content-->	
+<body>
+
+    <!-- division element - used as container either to style that section using CSS or perform certain tasks with javascript-->
+    <div class="header">
+        <h1>Adventure</h1>
+        <p>Let's get started</p>
+    </div>
+
+    <div class="navbar">
+        <a href="#">Link</a> <!--html element id to which window should scroll-->
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#" class="right">Link</a>        
+    </div>
+    
+</body>
+</html>
