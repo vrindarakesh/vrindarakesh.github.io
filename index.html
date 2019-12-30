@@ -55,6 +55,22 @@
             color: black; /* Black text color */
         }
 
+        *{
+            box-sizing: border-box; /*allows padding and border in an elements total width and height- content-box -border and padding not included*/
+        }
+
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .side{
+
+        }
+
+
+
     </style>
 
 </head>
@@ -63,6 +79,7 @@
 <body>
 
     <!-- division element - used as container either to style that section using CSS or perform certain tasks with javascript-->
+    <!--class attribute is used to assign equal styles to element with the same class name -->
     <div class="header">
         <h1>Adventure</h1>
         <p>Let's get started</p>
@@ -75,5 +92,14 @@
         <a href="#" class="right">Link</a>        
     </div>
     
+    <!-- creating two column layout - dividedin main content and side content-->
+    <div class="row">
+        <div class="side">
+            
+        </div>
+        <div class="main">
+            
+        </div>
+    </div>
 </body>
 </html>
