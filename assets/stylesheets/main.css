@@ -1,4 +1,15 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*
+
+/*
+====================================
+CSS reset
+====================================
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +23,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +35,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -47,11 +58,33 @@ table {
 	border-spacing: 0;
 }
 
+
+  /*========================================
+  Clearfix - to contain floats
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
 /*
   ========================================
   Grid
   ========================================
 */
+
+/*SETTING BOX SIZE : use the universal selector, *, along with universal pseudo-elements, *:before and *:after,
+to select every imaginable element and change the box-sizing to border-box.  */
 
 *,
 *:before,
@@ -67,8 +100,41 @@ table {
   ========================================
 */
 
-h1, h3, h4, h5, p {
-  margin-bottom: 22px;
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+
+strong {
+  font-weight: 400;
+}
+cite, em {
+  font-style: italic;
+}
+
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:hover {
+  color:#ff8500;
+}
+a {
+  color:  #88aa00;
+  text-decoration: none;
 }
 
 /*
@@ -77,6 +143,7 @@ h1, h3, h4, h5, p {
   ========================================
 */
 
+/*common styling for all buttons*/
 .btn {
   border-radius: 5px;
   display: inline-block;
@@ -84,23 +151,105 @@ h1, h3, h4, h5, p {
 }
 
 .btn-alt {
-  border: 1px solid #dfe2e5;
-  padding: 10px 30px;
-}
+  border: 1.5px solid black;
+  padding: 1px 30px;
+  background-color: rgba(0, 0, 0, 0.527);
 
-.container {
-  margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 960px;
+  text-transform: uppercase;
+  font-weight: 700;
+  
 }
 
 /*
   ========================================
-  Home
+  Home  - home page styles
   ========================================
 */
 
+
+body {
+  color:#ff8500;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px ;
+  line-height: 22px ;
+  
+}
+
+/* apply padding around all four sides of the <section> element. */
 .hero {
-  padding: 22px 80px 66px 80px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  line-height: 50px;
+
+  text-align: center;
+
+  background-image: url(../images/bgImage1.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.hero h1{
+  font-family: 'Lato', sans-serif;
+  line-height: 60px;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+header{
+  height: 120px;
+  background-color:black;
+}
+
+.logo {
+  float: left;
+  margin-top: 25px;
+  margin-left: 30px;
+  height: 60%;
+}
+
+.primary-nav {
+  font-family: 'Lato',sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+ 
+ 
+  float:right;
+  margin-right: 30px;
+  padding-top: 50px;
+  height: inherit;
+}
+
+.primary-nav a{
+  margin-left: 6px;
+  margin-right: 6px;
+
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer small {
+  float: left;
+  font-weight: 400;
+}
+
+.primary-footer {
+  padding-bottom: 44px;
+  padding-top: 44px;
+  color: #ff8500;
+  font-size: 14px;
 }
