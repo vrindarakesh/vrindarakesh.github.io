@@ -100,11 +100,12 @@ to select every imaginable element and change the box-sizing to border-box.  */
 .grid {
   display: flex;
   justify-content: space-evenly;
-  margin: 10px auto;
+  padding: 80px auto 0px auto;
 }
 
 .col-1-3 {
-  width: 25%;
+  padding: 50px 10px;
+  width: 33%;
 }
 .col-2-3 {
   width: 66.66%;
@@ -154,7 +155,7 @@ a:hover {
   color:#ff8500;
 }
 a {
-  color:  #88aa00;
+  color:  #00aa44;
   text-decoration: none;
 }
 
@@ -169,13 +170,19 @@ a {
   border-radius: 5px;
   display: inline-block;
   margin: 0;
+  color:#ff8500;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  color: white;
 }
 
 .btn-alt {
-  border: 1.5px solid black;
+  border: 0.5px solid #00aa44;
   padding: 1px 30px;
-  background-color: rgba(0, 0, 0, 0.527);
 
   text-transform: uppercase;
   font-weight: 700;
@@ -192,6 +199,7 @@ a {
 body {
   color:white;
   background-color: black;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 16px ;
@@ -201,16 +209,18 @@ body {
 
 /* apply padding around all four sides of the <section> element. */
 .hero {
-  padding: 150px 0px 150px 0px;
+  padding: 80px 100px ;
   margin-bottom: 40px;
   line-height: 50px;
+  color:white;
+}
 
-  text-align: center;
-  color: white;
+.container{
 
-  background-image: url(../images/bgImage1.png);
+  background-image: url(../images/bgImage2.png);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:cover; 
+
 }
 
 .hero h1{
@@ -219,15 +229,18 @@ body {
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #00aa44;
 }
 
 .teaser{
+  background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 8px 16px 0 rgba(59, 59, 59, 0.3);
   transition: 0.3s;
 }
 
 .teaser:hover {
-  box-shadow: 0 8px 16px 0 rgba(59, 59, 59, 0.5);
+  box-shadow: 8px 8px 16px 0px #00aa4465;
+  background-color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
 
@@ -237,7 +250,7 @@ body {
 }
 
 .teaser h3{
-  color: #88aa00;
+  color: #00aa44;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -258,15 +271,16 @@ body {
 */
 
 header{
-  height: 120px;
-  background-color:black;
+  margin-top: 30px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 .logo {
   float: left;
-  margin-top: 20px;
   margin-left: 100px;
-  height: 70%;
+  height: 100%;
 }
 
 .primary-nav {
@@ -275,7 +289,7 @@ header{
   font-weight: 600;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-right: 100px;
 
 }
