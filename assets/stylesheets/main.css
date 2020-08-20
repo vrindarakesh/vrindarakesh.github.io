@@ -97,15 +97,20 @@ to select every imaginable element and change the box-sizing to border-box.  */
           box-sizing: border-box;
 }
 
+.container{
+  margin: 10px 100px ;
+}
+
 .grid {
   display: flex;
   justify-content: space-evenly;
-  padding: 80px auto 0px auto;
+  background-color: rgba(0, 0, 0, 0.7);
+
 }
 
 .col-1-3 {
-  padding: 50px 10px;
   width: 33%;
+  padding:30px 10px;
 }
 .col-2-3 {
   width: 66.66%;
@@ -115,6 +120,8 @@ to select every imaginable element and change the box-sizing to border-box.  */
 .col-2-3 {
   vertical-align: middle;
 }
+
+
 
 /*
   ========================================
@@ -152,10 +159,10 @@ cite, em {
 */
 
 a:hover {
-  color:#ff8500;
+  color: #00aa44;
 }
 a {
-  color:  #00aa44;
+  color:  white;
   text-decoration: none;
 }
 
@@ -170,7 +177,7 @@ a {
   border-radius: 5px;
   display: inline-block;
   margin: 0;
-  color:#ff8500;
+  color: #00aa44;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -181,7 +188,7 @@ a {
 }
 
 .btn-alt {
-  border: 0.5px solid #00aa44;
+  border: 0.2px solid #00aa44;
   padding: 1px 30px;
 
   text-transform: uppercase;
@@ -197,7 +204,6 @@ a {
 
 
 body {
-  color:white;
   background-color: black;
 
   font-family: 'Raleway', sans-serif;
@@ -209,13 +215,12 @@ body {
 
 /* apply padding around all four sides of the <section> element. */
 .hero {
-  padding: 80px 100px ;
-  margin-bottom: 40px;
+  padding : 180px 30px ;
   line-height: 50px;
   color:white;
 }
 
-.container{
+.bg-container{
 
   background-image: url(../images/bgImage2.png);
   background-repeat: no-repeat;
@@ -233,9 +238,13 @@ body {
 }
 
 .teaser{
-  background-color: rgba(0, 0, 0, 0.5);
+  border-right: .5px solid #00aa44;
   box-shadow: 0 8px 16px 0 rgba(59, 59, 59, 0.3);
   transition: 0.3s;
+}
+
+.teaser:last-child{
+  border:none;
 }
 
 .teaser:hover {
@@ -245,8 +254,11 @@ body {
 }
 
 .teaser img{
-  width: 100%;
-  object-fit: contain;
+  display:block; /* to align image center - use display block and margin center*/
+  margin: auto;
+  padding-bottom: 15px;
+  width: 15%;
+
 }
 
 .teaser h3{
@@ -261,6 +273,7 @@ body {
 
 .teaser p{
   text-align: center;
+  color: white;
 }
 
 
@@ -272,26 +285,25 @@ body {
 
 header{
   margin-top: 30px;
-  height: 80px;
+  height: 100px;
   background-color: rgba(0, 0, 0, 0.5);
 
 }
 
 .logo {
   float: left;
-  margin-left: 100px;
-  height: 100%;
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 80%;
 }
 
 .primary-nav {
   font-family: 'Raleway',sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
-  margin-top: 30px;
-  margin-right: 100px;
-
+  margin-top: 40px;
+  margin-right: 30px;
 }
 
 .nav{
@@ -303,8 +315,13 @@ header{
 
 .nav li{
   display:inline-block;
-  margin: 0px 15px;
+  padding: 0px 20px;
+  border-right: 2px solid #00aa44;
 }
+.nav li:last-child{
+  border: none;
+}
+
 /*
   ========================================
   Primary footer
@@ -312,13 +329,13 @@ header{
 */
 
 .primary-footer small {
-  color: #ff8500;
+  color: white;
 }
 
 .primary-footer {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  margin: 40px 0px;
+  padding-top: 15px;
   text-transform: uppercase;
 }
