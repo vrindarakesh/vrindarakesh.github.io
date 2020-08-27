@@ -1,7 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/*Google fonts import*/
 
-/*
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+
 
 /*
 ====================================
@@ -59,7 +61,8 @@ table {
 }
 
 
-  /*========================================
+/*
+  ========================================
   Clearfix - to contain floats
   ========================================
 */
@@ -93,6 +96,32 @@ to select every imaginable element and change the box-sizing to border-box.  */
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.container{
+  margin: 10px 100px ;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.col-1-3 {
+  width: 33%;
+  padding:30px 10px;
+}
+.col-2-3 {
+  width: 66.66%;
+}
+
+.col-1-3,
+.col-2-3 {
+  vertical-align: middle;
+}
+
+
 
 /*
   ========================================
@@ -130,10 +159,10 @@ cite, em {
 */
 
 a:hover {
-  color:#ff8500;
+  color: #00aa44;
 }
 a {
-  color:  #88aa00;
+  color:  white;
   text-decoration: none;
 }
 
@@ -148,12 +177,19 @@ a {
   border-radius: 5px;
   display: inline-block;
   margin: 0;
+  color: #00aa44;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  color: white;
 }
 
 .btn-alt {
-  border: 1.5px solid black;
+  border: 0.2px solid #00aa44;
   padding: 1px 30px;
-  background-color: rgba(0, 0, 0, 0.527);
 
   text-transform: uppercase;
   font-weight: 700;
@@ -168,8 +204,9 @@ a {
 
 
 body {
-  color:#ff8500;
-  font-family: 'Lato', sans-serif;
+  background-color: black;
+
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 16px ;
   line-height: 22px ;
@@ -178,23 +215,65 @@ body {
 
 /* apply padding around all four sides of the <section> element. */
 .hero {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding : 180px 30px ;
   line-height: 50px;
+  color:white;
+}
 
-  text-align: center;
+.bg-container{
 
-  background-image: url(../images/bgImage1.png);
+  background-image: url(../images/bgImage2.png);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:cover; 
+
 }
 
 .hero h1{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 60px;
   font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #00aa44;
+}
+
+.teaser{
+  border-right: .5px solid #00aa44;
+  box-shadow: 0 8px 16px 0 rgba(59, 59, 59, 0.3);
+  transition: 0.3s;
+}
+
+.teaser:last-child{
+  border:none;
+}
+
+.teaser:hover {
+  box-shadow: 8px 8px 16px 0px #00aa4465;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.teaser img{
+  display:block; /* to align image center - use display block and margin center*/
+  margin: auto;
+  padding-bottom: 15px;
+  width: 15%;
+
+}
+
+.teaser h3{
+  color: #00aa44;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 30px;
+  text-transform: uppercase;
+  
+}
+
+.teaser p{
+  text-align: center;
+  color: white;
 }
 
 
@@ -205,35 +284,41 @@ body {
 */
 
 header{
-  height: 120px;
-  background-color:black;
+  margin-top: 30px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo {
   float: left;
-  margin-top: 25px;
   margin-left: 30px;
-  height: 60%;
+  margin-top: 10px;
+  height: 80%;
 }
 
 .primary-nav {
-  font-family: 'Lato',sans-serif;
-  font-size: 14px;
-  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
- 
- 
-  float:right;
+  margin-top: 40px;
   margin-right: 30px;
-  padding-top: 50px;
-  height: inherit;
 }
 
-.primary-nav a{
-  margin-left: 6px;
-  margin-right: 6px;
+.nav{
+  text-align: right;
+  width: fit-content;
+  float: right;
 
+}
+
+.nav li{
+  display:inline-block;
+  padding: 0px 20px;
+  border-right: 2px solid #00aa44;
+}
+.nav li:last-child{
+  border: none;
 }
 
 /*
@@ -243,13 +328,13 @@ header{
 */
 
 .primary-footer small {
-  float: left;
-  font-weight: 400;
+  color: white;
 }
 
 .primary-footer {
-  padding-bottom: 44px;
-  padding-top: 44px;
-  color: #ff8500;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
+  font-weight: 600;
+  padding-top: 15px;
+  text-transform: uppercase;
 }
