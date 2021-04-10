@@ -1,0 +1,218 @@
+
+/*Google fonts import - Laila and Raleway*/
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+
+
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+html{
+    font-size: 16px;
+}
+
+*{
+    font-family: 'Laila', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1a6052;
+    font-size: 0.83rem;
+    font-family: 'Laila', serif;
+}
+
+nav li{
+    padding-left: 10px;
+}
+
+h1{ 
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 1.17rem;
+}
+h4{
+    font-size: 1rem;
+}
+
+h5{
+    font-size:0.83rem;
+}
+
+h6{
+    font-size: 0.75rem;
+}
+
+/*vertical cards*/
+
+/*
+  ========================================
+  Clearfix - to contain floats
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container{
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+
+
+/*
+  ========================================
+  Home page
+  ========================================
+*/
+
+.bg-container{
+    height:auto;
+    background-image: url(../images/bannerImg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Header*/
+
+header{
+    height: 60px; 
+}
+
+.logo{
+    height: 80%;
+    margin-top: 4px;
+    float: left;
+}
+
+.primary-nav{
+    float: right;
+    padding-right: 10px;
+    font-family: 'Laila', serif;
+}
+
+.primary-nav li{
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+/*Section Hero*/
+
+.hero{
+    height: 90vh;
+    position: relative;
+}
+
+.hero h1{
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+    width: 55vh;
+    text-align: right;
+
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    line-height: 1.35;
+}
+
+.hero h1 span{
+    font-weight: 500;
+    color: yellow;
+    font-size: 2.5rem;
+}
+
+.hero button{
+    position: absolute;
+    bottom: 18%;
+    right:5%;
+
+    background-color: #00483a;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+button a{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Laila', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.footer-nav ul{
+    display: flex; 
+}
+
+.footer-nav a{
+    color: white;
+    font-size: 0.75rem;
+}
+
+
+footer h6{
+    color: white;
+    font-family: 'Laila',serif;
+}
+
+/* Section - posts */
+
+.posts h2{
+
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
