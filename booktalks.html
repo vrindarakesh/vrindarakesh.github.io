@@ -7,11 +7,11 @@
     <title>VividVistas | Booktalks </title>
     
     
-    <!--Google fonts link - AbrilFatface & Poppins-->
+    <!--Google fonts link - Lora & Karla-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&
-    family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&
+        family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <!--Stylesheet link-->
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="./resources/css/main.css" type="text/css" rel="stylesheet">
@@ -23,7 +23,7 @@
         <header class="container group">
             <img class ="logo" src="./resources/images/logoVividVistas.png" alt = "VividVistas logo">
             <nav class="primary-nav">
-                <ul>
+                <ul class="desktop-view">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./portfolio.html">Portfolio</a></li>
                     <li><a href="./booktalks.html">Booktalks</a></li>
@@ -31,6 +31,18 @@
                     <li><a href="#">About Me</a></li>
                 </ul>
             </nav>
+
+                <img class = "menu-icon" src="./resources/icons/menuIcon.png" alt="menu icon" onclick="openMenu()" >
+                <div id = "primary-nav-mobile-view">
+                    <img class = "close-icon" src="./resources/icons/closeIcon.png" alt="close icon"  onclick="closeMenu()">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="./booktalks.html">Booktalks</a></li>
+                        <li><a href="./sustainableLiving.html">Sustainable living</a></li>
+                        <li><a href="#">About Me</a></li>
+                    </ul>
+                </div>
         </header>
         
         <section class="hero container">
@@ -67,9 +79,13 @@
         
     </section>
     
-    <footer>
-        
+    <footer class="container">
+        <small>Copyright 2021 | VividVistas</small>
     </footer>
+
+     <!--Script links-->
+     <script src="./resources/scripts/events.js"></script>
+    
     
 </body>
 </html>

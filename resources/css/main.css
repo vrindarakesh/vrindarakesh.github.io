@@ -1,6 +1,6 @@
 
-/*Google fonts import - Laila and Raleway*/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+/*Google fonts import - Coromont Garamond and Karla*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Lora:wght@400;500;600;700&display=swap');
 
 
 
@@ -14,28 +14,24 @@ html{
     font-size: 16px;
 }
 
-*{
-    font-family: 'Merriweather', serif;
-    font-family: 'Mulish', sans-serif;
-}
-
 body{
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 h1,h2,h3,h4,h5{
-    font-family: 'Merriweather', serif;
+    font-family: 'Lora', serif;
 }
 
 a{
     text-decoration: none;
-    color: #1d2c2a;
-    font-size: 1rem;
-    font-family: 'Mulish', sans-serif;
+    color: #913b80;
+    font-size: 1.1rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
 }
 
 nav li{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 h1{ 
@@ -107,6 +103,16 @@ body{
     height: auto;
 }
 
+
+.bg-container{
+    height:100vh;
+    width: 100vw;
+    background-image: url(../images/bannerImg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 /*
 ==========================
 Horizontal cards
@@ -114,22 +120,24 @@ Horizontal cards
 */
 
 .horizontal-card{
-    width: 40%;
-    height: 400px;
+    width: 60%;
+    height: 350px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 30px 0;
     
-    border: 1px solid grey;
+    border: 1px solid #913b80;
 }
 
 .horizontal-card img{
-    width: 35%;
-    max-height: 380px;
+    max-width: 40%;
+    max-height: 300px;
     margin: 10px;
 }
 
 .horizontal-card .card-text {
-    width: 65%;
+    width: 60%;
     padding: 15px;
 }
 
@@ -144,43 +152,142 @@ Horizontal cards
     margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 800px){
+
+    .horizontal-card h4{
+        font-size: 1rem;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    
+    .horizontal-card p{
+    
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+}
+
 /*
-  ========================================
-  Home page
-  ========================================
+==========================
+Vertical cards
+==========================
 */
 
-
-.bg-container{
-    height:100vh;
-    background-image: url(../images/bannerImg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.vertical-card {
+    width: 65%;
+    height: 400px;
+    border: 1px solid #913b80;
 }
+
+.vertical-card img{
+    max-width: 90%;
+    max-height:300px;
+    margin: 10px;
+}
+
+.vertical-card .card-text{
+    width: 65%;
+    padding: 15px;
+}
+
+.vertical-card h4{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.vertical-card p{
+
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
 
 /*Header*/
 
 header{
-    height: 80px; 
+    height: 15vh; 
+    text-align: center;
 }
 
 .logo{
-    height: 80%;
+    height: 50%;
     margin-top: 4px;
-    float: left;
 }
 
 .primary-nav{
-    float: right;
-    padding-right: 5%;
-    font-family: 'Mulish', sans-serif;
+    
+    font-family: 'Karla', sans-serif;
 }
 
-.primary-nav li{
+
+.primary-nav .desktop-view li{
     display: inline-block;
     text-align: center;
-    line-height: 80px;
+    padding: 15px ;
+}
+
+.menu-icon{
+
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    display: none;
+    width: 26px;
+
+}
+
+#primary-nav-mobile-view{
+    display: none;
+}
+
+/* Mobile view - Primary navigation*/
+
+@media only screen and (max-width: 800px){
+
+    .primary-nav .desktop-view {
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    #primary-nav-mobile-view{
+        display: block;
+        height:100vh;
+        width: 0;
+        position: absolute;
+        top:0;
+        right: 0;
+        background-color: #00b170b4;
+        text-align: right;
+        z-index: 2;
+        transition: width, 500ms;
+    }
+    
+    .close-icon{
+        width: 22px;
+        margin: 30px 20px;
+    }
+
+    #primary-nav-mobile-view li{
+
+        padding: 20px;
+
+    }
+
+    #primary-nav-mobile-view li a{
+        font-size: 1.2rem;
+        color: white;
+        
+    }
+
 }
 
 
@@ -193,29 +300,29 @@ header{
 
 .hero h1{
     position: absolute;
-    bottom: 28%;
-    right: 5%;
+    bottom: 30%;
+    right: 8%;
     width: 55vh;
     text-align: right;
 
-    font-family: 'Merriweather', serif;
+    font-family: 'Lora', serif;
     color: white;
     line-height: 1.35;
     letter-spacing: 0.5px;
+    font-weight: 600;
 }
 
 .hero h1 span{
-    font-weight: 500;
     color: yellow;
-    font-size: 2.5rem;
+    font-size: 2.9rem;
 }
 
 .hero button{
     position: absolute;
     bottom: 18%;
-    right:5%;
+    right:8%;
 
-    background-color: #00483a;
+    background-color: #086140;
     box-shadow: none;
     border: none;
     border-radius: 5px;
@@ -223,25 +330,38 @@ header{
 }
 
 button a{
-    color: white;
-    font-size: 1.2rem;
-    font-family: 'Mulish', sans-serif;
+    color: black;
+    font-size: 1.4rem;
+    font-family: 'Karla', sans-serif;
     text-transform: uppercase;
     font-weight: 500;
+}
+
+/* Mobile view - Hero section*/
+
+@media only screen and (max-width: 800px){
+
+    .hero h1{
+        font-size: 1.5rem;
+    }
+
+    .hero h1 span{
+        font-size: 2rem;
+    }
+
 }
 
 /*Footer*/
 
 footer{
 
-    height: auto;
-    margin: 0 auto;
-    line-height: 1.5;
+    height: 5vh;
+    line-height: 5vh;
 }
 
 footer small{
-    color: white;
-    font-family: 'Mulish', sans-serif;
+    color: black;
+    font-family: 'Karla', sans-serif;
     font-size: 0.9rem;
 }
 
@@ -252,23 +372,25 @@ footer small{
 */
 
 .banner-img{
-    max-height: 80%;
+    max-width: 80%;
+    max-height: 70%;
     display: block;
     margin: 0 auto;
 }
 
 .hero h2{
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     text-transform: uppercase;
-    font-size: 2rem;
-    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    font-family: 'Lora', serif;
+    color:#6e1a5e;
 }
 
 .posts {
     margin-top: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 
     align-items: center;
@@ -278,8 +400,8 @@ footer small{
 
 .banner-wrapper {
 
-    background-image: linear-gradient(to bottom right, rgb(255, 238, 88), rgb(0, 255, 213));    
-
+    background-image: linear-gradient(to bottom right, rgb(217, 230, 109), rgb(115, 230, 230));    
+    height: 80vh;
 }
 
 /*
@@ -292,6 +414,7 @@ footer small{
 
     text-align: center;
     margin: 30px 0;
+    width: 100%;
 
 }
 
@@ -300,7 +423,7 @@ footer small{
     color: #913b80;
     font-weight: 800;
     font-size: 2rem;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 .design-overview {
@@ -339,7 +462,7 @@ footer small{
     padding: 10px;
     color: white;
     text-transform: uppercase;
-    font-family: 'Merriweather', serif;
+    font-family: 'Lora', serif;
   
 }
 
