@@ -126,8 +126,9 @@ Horizontal cards
     align-items: center;
     justify-content: center;
     margin: 30px 0;
-    
+    flex-direction: row;
     border: 1px solid #913b80;
+    box-shadow: 1px 1px 8px black;
 }
 
 .horizontal-card img{
@@ -137,7 +138,7 @@ Horizontal cards
 }
 
 .horizontal-card .card-text {
-    width: 60%;
+    max-width: 60%;
     padding: 15px;
 }
 
@@ -153,6 +154,19 @@ Horizontal cards
 }
 
 @media only screen and (max-width: 800px){
+
+    .horizontal-card{
+        flex-direction: column;
+        height: 580px;
+    }
+
+    .horizontal-card img{
+        max-width: 60%;
+    }
+
+    .horizontal-card .card-text{
+       max-width: 90%;
+    }
 
     .horizontal-card h4{
         font-size: 1rem;
@@ -402,6 +416,7 @@ footer small{
 
     background-image: linear-gradient(to bottom right, rgb(217, 230, 109), rgb(115, 230, 230));    
     height: 80vh;
+    width: 100%;
 }
 
 /*
@@ -464,5 +479,78 @@ footer small{
     text-transform: uppercase;
     font-family: 'Lora', serif;
   
+}
+
+/*
+  ========================================
+  About Me page
+  ========================================
+*/
+
+
+.aboutme-banner{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(19, 19, 19) ;
+}
+
+.profile-section {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    padding: 30px;
+}
+
+.profile-section img{
+    width: 20%;
+    display: block;
+}
+.profile-section .profile-text{
+    display: block;
+    width: 60%;
+    padding: 30px;
+}
+
+p .hobby-text{
+    color: #57ffc1;
+}
+
+p .past-exp-text{
+    color:  #00b171;
+}
+
+.profile-section h2 {
+    color: #913b80;
+    font-weight: 500;
+    font-size: 2rem; 
+    padding: 20px 0;  
+}
+
+.profile-section p{
+    font-family: 'Lora',serif;
+    color: #cdffed;
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5 ;
+}
+
+@media only screen and (max-width: 800px){
+    .profile-section{
+        flex-direction: column;
+    }
+
+    .profile-section img{
+        width: 50%;
+    }
+
+    .profile-section .profile-text{
+        width: 95%;
+        text-align: center;
+    }
 }
 
