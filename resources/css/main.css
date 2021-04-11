@@ -447,6 +447,7 @@ footer small{
     width: 80%;
     margin: 50px auto;
     border: 1px solid #00b171;
+    box-shadow: 1px 1px 8px gray;
     padding: 20px;
 }
 
