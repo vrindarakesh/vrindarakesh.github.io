@@ -470,7 +470,7 @@ footer small{
 }
 
 .design-overview h3 {
-    padding: 10px;
+    padding: 20px;
     color: #00b171;
     font-weight: 700;
     font-size: 1.5rem
@@ -478,8 +478,8 @@ footer small{
 
 .design-overview p {
 
-    font-size: 1.2rem;
-    padding: 10px;
+    font-size: 1.3rem;
+    padding: 15px;
 
 }
 
@@ -487,10 +487,11 @@ footer small{
 
     display: inline-block;
     background-color:#913b80;
-    padding: 10px;
+    padding: 20px;
     color: white;
     text-transform: uppercase;
     font-family: 'Josefin Sans', serif;
+    box-shadow: 1px 1px 6px gray;
   
 }
 
