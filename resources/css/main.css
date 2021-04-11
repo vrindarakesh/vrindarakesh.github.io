@@ -30,6 +30,10 @@ a{
     font-weight: 500;
 }
 
+a:hover {
+    color: #086140;
+}
+
 nav li{
     padding-left: 20px;
 }
@@ -264,6 +268,10 @@ header{
 
 @media only screen and (max-width: 800px){
 
+    .logo{
+        float: left;
+    }
+
     .primary-nav .desktop-view {
         display: none;
     }
@@ -274,21 +282,21 @@ header{
 
     #primary-nav-mobile-view{
         display: block;
-        height:100vh;
+        height: 100%;
         width: 0;
         position: absolute;
         top:0;
         right: 0;
-        background-color: #00b170b4;
+        background-color: #008b58d2;
         text-align: right;
         z-index: 2;
         transition: width, 500ms;
     }
     
     .close-icon{
-        width: 22px;
-        margin: 30px 20px;
-    }
+        width: 26px;
+        margin: 30px 30px;
+        }
 
     #primary-nav-mobile-view li{
 
@@ -300,6 +308,10 @@ header{
         font-size: 1.2rem;
         color: white;
         
+    }
+
+    #primary-nav-mobile-view li a:hover{
+        color: black;
     }
 
 }
