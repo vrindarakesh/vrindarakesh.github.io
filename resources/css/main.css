@@ -18,8 +18,9 @@ body{
     font-family: 'Karla', sans-serif;
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,h6{
     font-family: 'Josefin Sans', serif;
+    font-weight: 500;
 }
 
 a{
@@ -63,8 +64,9 @@ h6{
 }
 
 p{
-    font-size: 1rem ;
+    font-size: 1.25rem ;
     font-family: 'Karla', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -105,7 +107,6 @@ p{
 .container{
     width: 100vw;
     margin: 0 auto;
-    padding: 0px 20px;
 }
 
 body{
@@ -154,12 +155,11 @@ Horizontal cards
 }
 
 .horizontal-card h4{
-    font-size: 1.4rem;
     margin-bottom: 20px;
+    color: #00b171;
 }
 
 .horizontal-card p{
-
     margin-bottom: 10px;
 }
 
@@ -184,7 +184,6 @@ Horizontal cards
     }
     
     .horizontal-card p{
-    
         font-size: 1rem;
         margin-bottom: 10px;
     }
@@ -346,7 +345,7 @@ header{
 
 .hero h1 span{
     color: yellow;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .hero button{
@@ -378,7 +377,7 @@ button a{
     }
 
     .hero h1 span{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
 }
@@ -399,9 +398,17 @@ footer small{
 
 /*
   ========================================
-  Blog page
+  Subpages
   ========================================
 */
+
+.banner-wrapper {
+
+    background-image: linear-gradient(to bottom right, rgb(217, 230, 109), rgb(115, 230, 230));    
+    height: 80vh;
+    width: 100%;
+}
+
 
 .banner-img{
     max-width: 80%;
@@ -414,8 +421,6 @@ footer small{
     text-align: center;
     padding: 15px;
     text-transform: uppercase;
-    font-size: 1.8rem;
-    font-family: 'Josefin Sans', serif;
     color:#6e1a5e;
 }
 
@@ -430,13 +435,6 @@ footer small{
 
 }
 
-.banner-wrapper {
-
-    background-image: linear-gradient(to bottom right, rgb(217, 230, 109), rgb(115, 230, 230));    
-    height: 80vh;
-    width: 100%;
-}
-
 /*
   ========================================
   Portfolio page
@@ -446,16 +444,15 @@ footer small{
 .design-subsection {
 
     text-align: center;
-    margin: 30px 0;
+    padding: 30px 0;
     width: 100%;
 
 }
 
-.design-subsection h2 {
+.design-subsection h3 {
     padding: 20px;
     color: #913b80;
     font-weight: 800;
-    font-size: 2rem;
     font-family: 'Karla', sans-serif;
 }
 
@@ -475,16 +472,15 @@ footer small{
     margin: 0 auto;
 }
 
-.design-overview h3 {
+.design-overview h4 {
     padding: 20px;
     color: #00b171;
     font-weight: 700;
-    font-size: 1.5rem
+    text-transform: uppercase;
+
 }
 
 .design-overview p {
-
-    font-size: 1.3rem;
     padding: 15px;
 
 }
@@ -493,7 +489,7 @@ footer small{
 
     display: inline-block;
     background-color:#913b80;
-    padding: 20px;
+    padding: 18px;
     color: white;
     text-transform: uppercase;
     font-family: 'Josefin Sans', serif;
@@ -511,7 +507,7 @@ footer small{
 .aboutme-banner{
     width: 100vw;
     height: auto;
-    background-color: rgb(19, 19, 19) ;
+    background-color: rgb(14, 14, 14);
 }
 
 .profile-section {
@@ -545,8 +541,7 @@ p .past-exp-text{
 
 .profile-section h2 {
     color: #913b80;
-    font-weight: 500;
-    font-size: 2rem; 
+    font-weight: 500; 
     padding: 20px 0;  
 }
 
@@ -554,7 +549,6 @@ p .past-exp-text{
     font-family: 'Josefin Sans',serif;
     color: #cdffed;
     font-weight: 500;
-    font-size: 1.1rem;
     letter-spacing: 0.5px;
     line-height: 1.5 ;
 }
