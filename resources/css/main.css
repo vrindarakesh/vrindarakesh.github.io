@@ -520,6 +520,7 @@ footer small{
     .image-grid img{
         flex: 80%;
         max-width: 80%;
+        height:min-content;
     }
 }
 
