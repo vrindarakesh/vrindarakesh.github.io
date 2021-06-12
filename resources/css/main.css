@@ -516,6 +516,13 @@ footer small{
     border-left: 2px solid gainsboro;
 }
 
+@media only screen and (max-width: 800px){
+    .image-grid img{
+        flex: 80%;
+        max-width: 80%;
+    }
+}
+
 /*
   ========================================
   About Me page
