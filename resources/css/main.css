@@ -14,6 +14,12 @@ html{
     font-size: 16px;
 }
 
+@media only screen and (max-width: 800px){
+    p{
+        font-size: 0.8rem;
+    }
+}
+
 body{
     font-family: 'Karla', sans-serif;
 }
@@ -67,6 +73,7 @@ p{
     font-size: 1.25rem ;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
+    line-height: 1.2;
 }
 
 
@@ -105,7 +112,7 @@ p{
 }
 
 .container{
-    width: 100vw;
+    width: 96vw;
     margin: 0 auto;
 }
 
@@ -518,9 +525,9 @@ footer small{
 
 @media only screen and (max-width: 800px){
     .image-grid img{
-        flex: 80%;
+        flex: 20%;
         max-width: 80%;
-        height:min-content;
+        height:auto;
     }
 }
 
@@ -595,3 +602,34 @@ p .past-exp-text{
     }
 }
 
+/*
+  ========================================
+  Article page
+  ========================================
+*/
+
+.article-content{
+
+    margin: 20px auto;
+    padding: 5px;
+    text-align: center;
+    width: 90%;
+}
+
+.article-content img{
+    width: 70%;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.article-content h3{
+
+    padding: 20px;
+
+}
+
+@media only screen and (max-width: 800px){
+    .article-content img{
+        width: 98%;
+    }
+}
