@@ -112,7 +112,7 @@ p{
 }
 
 .container{
-    width: 96vw;
+    width: 100vw;
     margin: 0 auto;
 }
 
@@ -617,8 +617,7 @@ p .past-exp-text{
 }
 
 .article-content img{
-    width: 70%;
-    padding: 5px;
+    width: 60%;
     margin: 10px auto;
 }
 
@@ -628,8 +627,4 @@ p .past-exp-text{
 
 }
 
-@media only screen and (max-width: 800px){
-    .article-content img{
-        width: 98%;
-    }
 }
