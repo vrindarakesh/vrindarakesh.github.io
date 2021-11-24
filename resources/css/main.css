@@ -512,23 +512,23 @@ footer small{
 
 .image-grid img{
    flex: 20%;
-   max-width: 20%;
-   height:min-content;
-   padding: 10px 10px;
-  
-   border-right: 2px solid gainsboro ;
+   padding: 10px;
+   max-width:19%;
+   object-fit: contain;
+   border: 1px solid gainsboro;
+   box-shadow: 1px 1px 6px gray;
+   margin: 8px auto;
 }
 
-.image-grid img:first-child{
-    border-left: 2px solid gainsboro;
-}
 
 @media only screen and (max-width: 800px){
     .image-grid img{
         flex: 20%;
         max-width: 80%;
-        height:auto;
-    }
+        height: 300px;
+        object-fit: contain;
+        padding: 30px 20px;
+    }  
 }
 
 /*
