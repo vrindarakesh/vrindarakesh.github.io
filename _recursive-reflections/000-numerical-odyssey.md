@@ -2,8 +2,8 @@
 layout: blogpost
 title: "000 — A Numerical Odyssey"
 date: 2026-01-29
-tags: [numbers, foundations, math-journey]
----
+tags: [patterns, learning, numbers]
+--
 
 Math?! You might wonder why I used that punctuation. Well, that's what Math was to me until I graduated from college. It was all about equations, a myriad of symbols, and it all looked like an alien language. I never found joy in learning it, except for the satisfaction I felt from successfully memorizing formulas and solving problems.
 
