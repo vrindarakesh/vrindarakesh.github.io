@@ -7,6 +7,6 @@ collections:
   booksorbed:
     output: true
     permalink: /booksorbed/:name/
-  mathmusings:
+  recursive-reflections:
     output: true
     permalink: /recursive-reflections/:name/
