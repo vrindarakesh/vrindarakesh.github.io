@@ -6,7 +6,8 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/resources/css/style.css">
+  <link rel="stylesheet" href="/resources/css/reset.css">
+  <link rel="stylesheet" href="/resources/css/main.css">
 </head>
 <body>
 
@@ -24,6 +25,16 @@
   <main>
     {{ content }}
   </main>
+
+  <script>
+  document.getElementById("searchInput")?.addEventListener("keyup", function() {
+    let filter = this.value.toLowerCase();
+    document.querySelectorAll(".post-link").forEach(link => {
+    link.style.display = link.textContent.toLowerCase().includes(filter) ? "" : "none";
+  });
+});
+</script>
+
 
 </body>
 </html>
