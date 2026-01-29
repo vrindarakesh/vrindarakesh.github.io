@@ -1,0 +1,12 @@
+title: Vrinda Rakesh
+description: Thoughts on books, math, and patterns in life
+baseurl: ""
+url: "https://vrindarakesh.github.io"
+
+collections:
+  booktalks:
+    output: true
+    permalink: /booktalks/:name/
+  mathmarvels:
+    output: true
+    permalink: /mathmarvels/:name/
