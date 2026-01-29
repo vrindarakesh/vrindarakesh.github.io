@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Math Musings
+title: Recursive Reflections
 ---
 
-# Math Musings
+# Recursive Reflections
 
 {% for post in site.mathmusings reversed %}
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>

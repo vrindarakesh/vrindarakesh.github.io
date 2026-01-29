@@ -9,4 +9,4 @@ collections:
     permalink: /booksorbed/:name/
   mathmusings:
     output: true
-    permalink: /mathmusings/:name/
+    permalink: /recursive-reflections/:name/
