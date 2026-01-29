@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 title: Vrinda Rakesh
 description: Thoughts on books, math, and patterns in life
 baseurl: ""
@@ -10,3 +11,4 @@ collections:
   mathmarvels:
     output: true
     permalink: /mathmarvels/:name/
+=======
