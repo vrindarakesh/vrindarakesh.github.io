@@ -4,9 +4,9 @@ baseurl: ""
 url: "https://vrindarakesh.github.io"
 
 collections:
-  booktalks:
+  booksorbed:
     output: true
-    permalink: /booktalks/:name/
-  mathmarvels:
+    permalink: /booksorbed/:name/
+  mathmusings:
     output: true
-    permalink: /mathmarvels/:name/
+    permalink: /mathmusings/:name/

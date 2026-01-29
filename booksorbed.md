@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Math Marvels
+title: Booksorbed
 ---
 
-# Math Marvels
+# Booksorbed
 
-{% for post in site.mathmarvels reversed %}
+{% for post in site.booksorbed reversed %}
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
   <p><em>{{ post.date | date: "%B %d, %Y" }}</em></p>
 {% endfor %}
