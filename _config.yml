@@ -9,4 +9,4 @@ collections:
     permalink: /booksorbed/:name/
   recursive-reflections:
     output: true
-    permalink: /recursive-reflections.html
+    permalink: /recursive-reflections/:name/
