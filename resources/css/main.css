@@ -677,3 +677,32 @@ p .past-exp-text{
   font-size: 48px;
   margin-bottom: 40px;
 }
+
+.post-card {
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.post-card h2 {
+  margin-bottom: 5px;
+}
+
+.post-card p {
+  margin-top: 8px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 6px;
+  color: #7a3aa5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+

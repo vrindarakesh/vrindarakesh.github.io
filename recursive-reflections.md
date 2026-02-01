@@ -22,11 +22,18 @@ title: Recursive Reflections
     <h1>Recursive Reflections</h1>
 
     {% for post in site.recursive-reflections %}
-      <div style="margin-bottom: 25px;">
-        <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a><br>
-        <small>{{ post.date | date: "%B %d, %Y" }}</small>
-      </div>
-    {% endfor %}
+  <div class="post-card">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <small>{{ post.date | date: "%B %d, %Y" }}</small>
+
+    <p>
+      {{ post.content | strip_html | truncate: 220 }}
+    </p>
+
+    <a class="read-more" href="{{ post.url }}">Read more →</a>
+  </div>
+{% endfor %}
+
 
   </main>
 
