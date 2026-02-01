@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: "001 — When Did Humans Begin to Count?"
+title: "001 — When Humans Begin to Count?"
 date: 2026-02-02
 tags: [numbers, history, patterns]
 ---
@@ -23,7 +23,6 @@ And this is where something fascinating happened.
 Number systems did more than help people keep track of things —  
 they helped humans **discover patterns in the world itself**.
 
----
 
 ## 🌍 Different Civilizations, Different Ideas
 
@@ -43,7 +42,6 @@ In base-10:
 
 This idea of *place value* is one of the most powerful inventions in human history.
 
----
 
 ### 🌌 Babylonians  
 The Babylonians used a **base-60 (sexagesimal)** system.
@@ -54,7 +52,7 @@ With only **two basic symbols**, they built a system capable of representing eno
 
 Can you imagine thinking in base-60?
 
----
+
 
 ### 🏛 Greeks, Chinese, Romans  
 Other civilizations created their own number systems:
@@ -65,7 +63,6 @@ Other civilizations created their own number systems:
 
 Each worked — but each had limits. None made calculations as flexible as the system that would come later.
 
----
 
 ### 🇮🇳 The Indian Breakthrough
 
@@ -85,7 +82,7 @@ And so on…
 
 With just ten symbols and place value, humans could express **infinite numbers**.
 
----
+
 
 ## 🧠 Counting Wasn’t Just Practical
 
@@ -100,7 +97,7 @@ It turned observation into abstraction.
 Numbers are not just tools.  
 They are part of the story of how human thinking evolved.
 
----
+
 
 In the next reflection, we’ll explore **bases** more deeply — and see how changing the base changes the way numbers behave.
 
