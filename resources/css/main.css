@@ -633,8 +633,7 @@ p .past-exp-text{
   Blog page
   ========================================
 */
-
-
+/* BLOG PAGE LAYOUT */
 .blog-layout {
   display: flex;
   gap: 60px;
@@ -646,18 +645,18 @@ p .past-exp-text{
   width: 260px;
 }
 
-.blog-sidebar h3 {
+.blog-sidebar-title {
   font-size: 22px;
   margin-bottom: 10px;
 }
 
-.blog-sidebar input {
+.blog-sidebar-search {
   width: 100%;
   padding: 8px;
   margin-bottom: 20px;
 }
 
-.tag-cloud a {
+.tag-cloud-link {
   display: inline-block;
   padding: 6px 12px;
   margin: 6px 6px 0 0;
@@ -673,9 +672,26 @@ p .past-exp-text{
   max-width: 720px;
 }
 
-.blog-content h1 {
+.blog-content-title {
   font-size: 48px;
   margin-bottom: 40px;
+}
+
+/* BLOG LIST PAGE */
+.blog-content > div {
+  margin-bottom: 55px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-content-title,
+.blog-content-strong {
+  color: #7a2d91;
+}
+
+.blog-content-meta {
+  color: #666;
+  font-size: 14px;
 }
 
 .post-card {
@@ -684,17 +700,17 @@ p .past-exp-text{
   border-bottom: 1px solid #eee;
 }
 
-.post-card h2 {
+.post-card-title {
   margin-bottom: 5px;
 }
 
-.post-card p {
+.post-card-content {
   margin-top: 8px;
   color: #444;
   line-height: 1.6;
 }
 
-.read-more {
+.read-more-link {
   display: inline-block;
   margin-top: 6px;
   color: #7a3aa5;
@@ -702,7 +718,24 @@ p .past-exp-text{
   font-weight: 500;
 }
 
-.read-more:hover {
+.read-more-link:hover {
+  text-decoration: underline;
+}
+
+.top-nav {
+  text-align: center;
+  margin: 20px 0 40px 0;
+  font-size: 18px;
+}
+
+.top-nav-link {
+  margin: 0 18px;
+  text-decoration: none;
+  color: #7a2d91;
+  font-weight: 500;
+}
+
+.top-nav-link:hover {
   text-decoration: underline;
 }
 
