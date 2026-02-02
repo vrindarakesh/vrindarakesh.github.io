@@ -1,31 +1,43 @@
+---
+layout: default
+---
 
 <div class="blog-layout">
 
   <!-- LEFT SIDEBAR -->
-<aside class="blog-sidebar">
-  <div class="sidebar-inner">
+  <aside class="blog-sidebar">
+    <div class="sidebar-inner">
 
-    <!-- PRIMARY NAV -->
-    <nav class="sidebar-nav">
-      <a href="/" class="sidebar-nav-link">Home</a>
-      <a href="/portfolio.html" class="sidebar-nav-link">Portfolio</a>
-    </nav>
+      <nav class="sidebar-nav">
+        <a href="/" class="sidebar-nav-link">Home</a>
+        <a href="/portfolio.html" class="sidebar-nav-link">Portfolio</a>
+      </nav>
 
-    <hr class="sidebar-divider">
+      <hr class="sidebar-divider">
 
-    <!-- BLOG TOOLS -->
-    <h3>Explore</h3>
+      <h3>Explore</h3>
+      <input type="text" id="searchInput" placeholder="Search thoughts..." class="blog-sidebar-search">
 
-    <input type="text" id="searchInput" placeholder="Search thoughts..." class="blog-sidebar-search">
+      <h4>Topics</h4>
+      <div class="tag-cloud">
+        <a href="/tag/patterns/" class="tag-cloud-link">Patterns</a>
+        <a href="/tag/nature/" class="tag-cloud-link">Nature</a>
+        <a href="/tag/books/" class="tag-cloud-link">Books</a>
+        <a href="/tag/geometry/" class="tag-cloud-link">Geometry</a>
+      </div>
 
-    <h4>Topics</h4>
-    <div class="tag-cloud">
-      <a href="/tag/patterns/" class="tag-cloud-link">Patterns</a>
-      <a href="/tag/nature/" class="tag-cloud-link">Nature</a>
-      <a href="/tag/books/" class="tag-cloud-link">Books</a>
-      <a href="/tag/geometry/" class="tag-cloud-link">Geometry</a>
     </div>
+  </aside>
 
-  </div>
-</aside>
+  <!-- MAIN BLOG CONTENT -->
+  <main class="blog-content">
+    <article>
+      <h1>{{ page.title }}</h1>
+      <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+
+      {{ content }}
+
+    </article>
+  </main>
+
 </div>
