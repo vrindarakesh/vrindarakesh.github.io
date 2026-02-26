@@ -48,24 +48,31 @@ layout: default
 
     {% else %}
       <!-- ===== BLOG MAIN PAGE (LIST) ===== -->
-      <section class="blog-list">
-        <h1 class="blog-content-title">{{ page.title }}</h1>
+      {% assign current_collection = page.collection | default: "recursive-reflections" %}
 
-        {% for post in site.recursive-reflections %}
-        <div class="post-card">
-          <h2 class="post-card-title">
-            <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
-          </h2>
-          <p class="blog-content-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-          <p class="post-card-content">
-            {{ post.content | strip_html | truncate: 180 }}
-          </p>
-          <a href="{{ post.url }}" class="read-more-link">Read more</a>
-        </div>
-        {% endfor %}
+<section class="blog-list">
+  <h1 class="blog-content-title">{{ page.title }}</h1>
 
-      </section>
+  {% for post in site[current_collection] %}
+    <div class="post-card">
+      <h2 class="post-card-title">
+        <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+      </h2>
+
+      <p class="blog-content-meta">
+        {{ post.date | date: "%B %d, %Y" }}
+      </p>
+
+      <p class="post-card-content">
+        {{ post.content | strip_html | truncate: 180 }}
+      </p>
+
+      <a href="{{ post.url }}" class="read-more-link">Read more →</a>
+    </div>
+  {% endfor %}
+</section>
+
     {% endif %}
 
   </main>
-</div>
+</div>l
