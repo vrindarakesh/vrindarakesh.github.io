@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: "002 — The Sin of Arithmetic"
+title: "003 — The Sin of Arithmetic"
 date: 2026-03-08
 tags: [randomness, computation, history]
 ---

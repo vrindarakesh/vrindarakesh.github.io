@@ -5,8 +5,6 @@ date: 2026-03-01
 tags: [numbers, history, patterns]
 ---
 
-# Where Does Complexity Come From?
-
 I keep returning to the same question.
 
 Where does complexity come from?
@@ -92,8 +90,7 @@ for (let i = 0; i < 10000; i++) {
   point(x, y);
 }
 ```
-
-
+I expected evenness.
 Instead, I saw clusters.
 
 Gaps.
