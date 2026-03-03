@@ -1,7 +1,7 @@
 ---
 layout: blogpost
-title: "001 — When Humans Begin to Count?"
-date: 2026-02-02
+title: "002 — Where Does Complexity Come From?"
+date: 2026-03-01
 tags: [numbers, history, patterns]
 ---
 
@@ -18,11 +18,11 @@ Complexity in the world.
 
 The branching of a river delta.  
 The spiral of a shell.  
-The way a flock of starlings folds into itself and then opens again — like breath.
+The way a flock of starlings folds into itself and then opens again.
 
 No one designs these things.  
 No architect drafts a snowflake.  
-No choreographer directs a murmuration.
+No choreographer directs a starling or the fireflies.
 
 And yet what appears is structured. Geometric. Sometimes so precise it feels intentional.
 
@@ -40,13 +40,8 @@ Thousands of birds. No visible leader.
 
 And yet the flock moves as if it shares a single nervous system.
 
-I watched this clip again recently:
+I watched this clip again recently: <a href="https://www.youtube.com/watch?v=V4f_1_r80RY">Flight of the Starlings</a>
 
-https://www.youtube.com/watch?v=V4f_1_r80RY  
-
-I forced myself not to romanticize it.
-
-Instead, I asked:
 
 What rule could each bird be following?
 
@@ -60,17 +55,13 @@ If that’s true, then the global shape isn’t designed.
 
 It emerges.
 
-That word keeps returning.
-
-Emerges.
+That word keeps returning. Emerges! Does patterns always emerge?
 
 ---
 
 ## The Fireflies
 
-Then I learned about synchronous fireflies in Southeast Asia — entire trees lighting up in perfect rhythm along mangrove rivers.
-
-https://www.youtube.com/watch?v=O7lZ7t7V3M8  
+Then I came across about synchronous fireflies in Southeast Asia — entire trees lighting up in perfect rhythm along mangrove rivers.
 
 Each firefly has its own internal timing.
 
@@ -84,17 +75,11 @@ No master clock.
 
 Just interaction.
 
-It unsettled me.
-
-Maybe complexity isn’t planned.
-
-Maybe it’s negotiated.
+Maybe complexity isn’t planned. Maybe it emerges.
 
 ---
 
 ## When I Tried to Make Randomness
-
-At some point, I decided to strip everything down.
 
 If complexity emerges from rules, what does pure randomness look like?
 
@@ -106,3 +91,26 @@ for (let i = 0; i < 10000; i++) {
   let y = random(height);
   point(x, y);
 }
+```
+
+
+Instead, I saw clusters.
+
+Gaps.
+
+But the more I read, the more I realized:
+
+True randomness contains streaks.
+
+We expect randomness to avoid patterns.
+
+But mathematically, it doesn’t promise that.
+
+It promises probability — not aesthetic fairness.
+
+Something in my intuition broke there.
+
+If randomness could look structured,
+and structure could look random,
+
+then maybe I didn’t yet understand either.
