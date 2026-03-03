@@ -1,8 +1,8 @@
 ---
 layout: blogpost
 title: "003 — The Sin of Arithmetic"
-date: 2026-03-08
-tags: [randomness, computation, history]
+date: 2026-03-02
+tags: [randomness, history, patterns]
 ---
 
 When I first saw clusters appear in a field of random dots, I assumed the flaw was mine.
