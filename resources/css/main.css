@@ -567,6 +567,7 @@ footer small{
 
 p .hobby-text{
     color: #57ffc1;
+    margin-top: 8px;
 }
 
 p .past-exp-text{
@@ -576,7 +577,8 @@ p .past-exp-text{
 .profile-section h2 {
     color: #913b80;
     font-weight: 500; 
-    padding: 20px 0;  
+    padding: 20px 0; 
+    margin-bottom: 22px; 
 }
 
 .profile-section p{
@@ -584,7 +586,8 @@ p .past-exp-text{
     color: #cdffed;
     font-weight: 500;
     letter-spacing: 0.5px;
-    line-height: 1.5 ;
+    line-height: 1.6 ;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 800px){
