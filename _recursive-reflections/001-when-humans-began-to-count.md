@@ -102,3 +102,18 @@ They are part of the story of how human thinking evolved.
 In the next reflection, we’ll explore **bases** more deeply — and see how changing the base changes the way numbers behave.
 
 The journey has only just begun.
+
+
+---
+
+<div style="display:flex; justify-content:space-between; margin-top:40px;">
+
+<div>
+← <a href="/recursive-reflections/000-numerical-odyssey/">Previous</a>
+</div>
+
+<div>
+<a href="/recursive-reflections/002-where-does-complexity-come-from/">Next</a> →
+</div>
+
+</div>

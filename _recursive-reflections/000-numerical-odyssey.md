@@ -24,3 +24,14 @@ Join me on this journey back to the dawn of mathematics, to understand the fasci
 
 **Disclaimer:**  
 Please note that this series is a living document. I continually research, edit, and add content as I gain new insights. Your feedback is invaluable — if you disagree with any views shared in the coming series or spot any misconceptions, please don't hesitate to reach out. Let's learn and grow together in our appreciation of mathematics!
+
+---
+
+<div style="display:flex; justify-content:space-between; margin-top:40px;">
+
+
+<div>
+<a href="/recursive-reflections/001-when-humans-began-to-count/">Next</a> →
+</div>
+
+</div>

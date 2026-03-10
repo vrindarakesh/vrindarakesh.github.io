@@ -111,3 +111,16 @@ If randomness could look structured,
 and structure could look random,
 
 then maybe I didn’t yet understand either.
+
+
+<div style="display:flex; justify-content:space-between; margin-top:40px;">
+
+<div>
+← <a href="/recursive-reflections/001-when-humans-began-to-count/">Previous</a>
+</div>
+
+<div>
+<a href="/recursive-reflections/003-the-sin-of-arithmetic/">Next</a> →
+</div>
+
+</div>
