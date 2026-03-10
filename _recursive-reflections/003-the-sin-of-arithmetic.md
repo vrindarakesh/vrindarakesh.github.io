@@ -144,3 +144,15 @@ The only question is how long it takes.
 And that is the real sin.
 
 Sooner or later, it must revisit the same pattern.
+
+<div style="display:flex; justify-content:space-between; margin-top:40px;">
+
+<div>
+← <a href="/recursive-reflections/002-where-does-complexity-come-from/">Previous</a>
+</div>
+
+<div>
+<a href="/recursive-reflections/004-path-to-pascals/">Next</a> →
+</div>
+
+</div>

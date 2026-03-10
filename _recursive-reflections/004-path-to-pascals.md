@@ -33,3 +33,17 @@ height="750"
 style="border:1px solid #ddd; border-radius:10px;"
 loading="lazy">
 </iframe>
+
+<div style="display:flex; justify-content:space-between; margin-top:40px;">
+
+<div>
+← <a href="/recursive-reflections/003-the-sin-of-arithmetic/">Previous</a>
+</div>
+
+<div>
+<a href="/recursive-reflections/005-begin-with-a-point/">Next</a> →
+</div>
+
+</div>
+
+
