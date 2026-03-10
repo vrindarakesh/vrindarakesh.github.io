@@ -14,7 +14,7 @@ Triangles become patterns.
 What happens if we let a computer draw them?
 
 <iframe
-src="https://geometry-lab.vercel.app"
+src="https://geometry-lab-xi.vercel.app/"
 width="100%"
 height="750"
 style="border:1px solid #ddd; border-radius:10px;"

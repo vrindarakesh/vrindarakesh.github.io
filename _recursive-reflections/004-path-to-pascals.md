@@ -27,7 +27,7 @@ And Pascal's triangle is deeply connected to **binomial coefficients**.
 To explore this visually, try the interactive below.
 
 <iframe
-src="https://combinatorics-lab.vercel.app/series/03"
+src="https://blockly-math-lab.vercel.app/"
 width="100%"
 height="750"
 style="border:1px solid #ddd; border-radius:10px;"
