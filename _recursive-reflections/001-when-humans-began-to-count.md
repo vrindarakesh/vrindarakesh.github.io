@@ -8,72 +8,107 @@ tags: [numbers, history, patterns]
 > *“Mathematical concepts are not wired into the human condition. They are learned, acquired through cultural and linguistic transmission… They are not a component of our mental hardware but very much a part of our mental software.”*  
 > — Caleb Everett, *Numbers and the Making of Us*
 
-Ever wondered **when humans began counting — not casually, but systematically, with purpose?**
+Ever wondered when humans began counting?
 
-It’s not an easy question to answer.
+At some point in history, someone must have asked a simple question.
 
-Perhaps our ancestors used their fingers. Perhaps they kept tallies with sticks or pebbles. Perhaps they carved marks into stone or clay. Their needs may have been simple — counting livestock, tracking passing days, remembering quantities important for survival.
+“How many?”
+
+Maybe it was about sheep.  
+Maybe about days.  
+Maybe about grain stored for winter.
+
+When I first read this line by Caleb Everett, it made me pause.
+
+I had never thought about numbers this way before.
+
+Are we naturally wired to understand numbers?  
+Or is counting something we slowly learned as a species?
+
+Perhaps our ancestors used their fingers for it. Perhaps they kept tallies with sticks or pebbles. Perhaps they carved marks into stone or clay.
 
 But as societies grew, so did their problems.
 
-Larger communities meant trade. Trade meant planning. Planning meant **measuring, recording, and comparing quantities**. Suddenly, memory alone was not enough. Humans needed systems.
+Larger communities meant trade.  
+Trade meant planning.  
+Planning meant measuring, recording, and comparing quantities.
 
-And this is where something fascinating happened.
+Suddenly, memory alone was not enough.
 
-Number systems did more than help people keep track of things —  
-they helped humans **discover patterns in the world itself**.
-
-
-## 🌍 Different Civilizations, Different Ideas
+Humans needed systems — to manage their increasingly complicated societies and to keep track of numbers.
 
 Across the world, cultures built their own solutions.
 
-### 🏺 Egyptians  
-The ancient Egyptians created a complex system using hieroglyphic symbols. Their system was **base-10** — already hinting at something familiar to us.
-
-But what exactly is a *base*?
-
-In simple terms, a base is **how many unique symbols you use before moving to a new place value**.
-
-In base-10:
-0–9 use one digit.  
-10 requires a second place.  
-100 requires a third.
-
-This idea of *place value* is one of the most powerful inventions in human history.
+<div style="text-align:center;">
+  <img src="/resources/images/math001Images/rr_001_01.png.png"
+       alt="Number systems history"
+       style="max-width:100%; height:auto;" />
+</div>
 
 
-### 🌌 Babylonians  
-The Babylonians used a **base-60 (sexagesimal)** system.
+As numbers grew larger, people needed better ways to keep track of them.  
+What began as simple counting slowly evolved.
 
-Yes — sixty.
+The ancient Egyptians, for instance, crafted a complex system using hieroglyphics — a system with **10 symbols**.
+<div style="text-align:center;">
+  <img src="/resources/images/math001Images/egyptian.png"
+       alt="Number systems history"
+       style="max-width:100%; height:auto;" />
+</div>
 
-With only **two basic symbols**, they built a system capable of representing enormous numbers. This system survives today in how we measure **time (60 seconds, 60 minutes)** and **angles (360 degrees)**.
+The Babylonians, on the other hand, used **60 symbols — sexagesimal!**
+<div style="text-align:center;">
+  <img src="/resources/images/math001Images/babylonian.png"
+       alt="Number systems history"
+       style="max-width:100%; height:auto;" />
+</div>
 
-Can you imagine thinking in base-60?
+Could you imagine using 60 symbols and doing your calculations?!
 
+Then there are Greek, 
+<div style="text-align:center;">
+  <img src="/resources/images/math001Images/greek.png"
+       alt="Number systems history"
+       style="max-width:100%; height:auto;" />
+</div>
 
+Chinese,
 
-### 🏛 Greeks, Chinese, Romans  
-Other civilizations created their own number systems:
+<div style="text-align:center;">
+  <img src="/resources/images/math001Images/chinese.png"
+       alt="Number systems history"
+       style="max-width:100%; height:auto;" />
+</div>
 
-- Greek numerals  
-- Chinese counting rods  
-- Roman numerals  
+Indian,
 
-Each worked — but each had limits. None made calculations as flexible as the system that would come later.
+<div style="text-align:center;">
+  <img src="/resources/images/math001Images/indian.png"
+       alt="Number systems history"
+       style="max-width:100%; height:auto;" />
+</div>
 
+and Roman systems — each with its own unique quirks and methods.
 
-### 🇮🇳 The Indian Breakthrough
+<div style="text-align:center;">
+  <img src="/resources/images/math001Images/roman.png"
+       alt="Number systems history"
+       style="max-width:100%; height:auto;" />
+</div>
 
-The most influential number system today is the **base-ten (decimal) place-value system**.
+Each worked — but each had limits.  
+None made calculations as flexible as the system that would come later.
 
-It emerged in ancient India and was later refined and spread by Arab scholars. That’s why the digits 0–9 are called **Hindu-Arabic numerals**.
+The most influential number system today is the one with **10 symbols** that uses a **place-value system**.
+
+It emerged in ancient India and was later refined and spread by Arab scholars.
+
+That’s why the digits **0–9** are called **Hindu-Arabic numerals**.
 
 This system had two revolutionary ideas:
 
-1. **Only ten symbols are needed**
-2. **A digit’s value depends on its position**
+1. Only ten symbols are needed  
+2. A digit’s value depends on its position
 
 Ones place.  
 Tens place.  
@@ -82,13 +117,9 @@ And so on…
 
 With just ten symbols and place value, humans could express **infinite numbers**.
 
-
-
-## 🧠 Counting Wasn’t Just Practical
-
 Counting didn’t just help with trade or farming.
 
-It changed how humans **thought**.
+It changed how humans thought.
 
 It revealed patterns.  
 It led to geometry, astronomy, architecture, and science.  
@@ -97,12 +128,17 @@ It turned observation into abstraction.
 Numbers are not just tools.  
 They are part of the story of how human thinking evolved.
 
+In the next reflection, we’ll explore **bases** (the number of symbols in a number system) — and see how changing the base changes the way numbers behave.
 
+Our journey into the world of numbers has only just begun.
 
-In the next reflection, we’ll explore **bases** more deeply — and see how changing the base changes the way numbers behave.
+## References
 
-The journey has only just begun.
+1. [Mac Tutor – History of Mathematics Topics](https://mathshistory.st-andrews.ac.uk/HistTopics/)
 
+2. [A Brief History of Numerical Systems – TED-Ed](https://youtu.be/cZH0YnFpjwU?si=ez6kZ3x7SfdQC0dG)
+
+3. [Numerals and Numeral Systems – Britannica](https://www.britannica.com/science/numeral)
 
 ---
 
