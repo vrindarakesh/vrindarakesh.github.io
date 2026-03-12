@@ -10,6 +10,12 @@ Math?! You might wonder why I used that punctuation. Well, that's what Math was 
 But when did my perspective on Math change?  
 It was when I realized that everything around us is built on numbers. Understanding the world seemed impossible without befriending Math. I realized that something was missing in the way I was taught Math, which made it so daunting. And as my son took his first steps into the world of learning, I was determined that he wouldn't face the same struggles I did. So, I decided to go back to the basics.
 
+<div style="text-align:center;">
+  <img src="/resources/images/math001Images/rr_000_01.png"
+       alt="My math perspective"
+       style="max-width:100%; height:auto;" />
+</div>
+
 Once I delved into the foundational aspects of Math, I began to appreciate its beauty. It was like discovering missing puzzle pieces and experiencing the satisfaction of putting them together to reveal the bigger picture. Inspired by this newfound love, I decided to document my journey from the very beginning, hoping to inspire others to fall in love with Math just as I have.
 
 Join me on this journey back to the dawn of mathematics, to understand the fascinating origins of the ten symbols that form the very foundation — and discover why it has stood the test of time.

@@ -20,14 +20,10 @@ How many different paths are possible?
 At first it seems like a maze puzzle.
 But something beautiful appears.
 
-The numbers that count the paths form **Pascal's Triangle**.
-
-And Pascal's triangle is deeply connected to **binomial coefficients**.
-
 To explore this visually, try the interactive below.
 
 <iframe
-src="https://blockly-math-lab.vercel.app/"
+src="https://blockly-math-lab.vercel.app/series/03"
 width="100%"
 height="750"
 style="border:1px solid #ddd; border-radius:10px;"
