@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: "001 — When Humans Begin to Count?"
+title: "001 — Math History series Part 1: When Humans Begin to Count?"
 date: 2026-02-02
 tags: [numbers, history, patterns]
 ---
@@ -40,7 +40,7 @@ Humans needed systems — to manage their increasingly complicated societies and
 Across the world, cultures built their own solutions.
 
 <div style="text-align:center;">
-  <img src="/resources/images/math001Images/rr_001_01.png.png"
+  <img src="/resources/images/math001Images/rr_001_01.png"
        alt="Number systems history"
        style="max-width:100%; height:auto;" />
 </div>
