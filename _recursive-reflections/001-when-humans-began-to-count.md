@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: "001 — Math History series Part 1: When Humans Begin to Count?"
+title: "The Math History Series | Part 1: When Did Humans Begin Counting?"
 date: 2026-02-02
 tags: [numbers, history, patterns]
 ---
